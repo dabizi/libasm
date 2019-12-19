@@ -2,6 +2,6 @@
     section __TEXT,__text
    
    _ft_write:
-              mov           rax, 0x2000004 ; Put write in 
+              mov           rax, 0x2000004 ; Put write in the syscall register
               syscall           ; Call the operating system to do the write function
               ret
