@@ -20,6 +20,8 @@ Sixth Argument: R9
 
 "there is only one designated register for return values from functions: RAX."
 
+The CX register is used as a decrementing counter, stopping when the counter reaches zero
+
 
 Operations :
 mov x, y      	x ← y
