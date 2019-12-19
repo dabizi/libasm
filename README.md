@@ -6,7 +6,8 @@ Doc : https://cs.lmu.edu/~ray/notes/nasmtutorial/
 How to run it : nasm -fmacho64 hello.asm && ld hello.o -o hello -macosx_version_min 10.13 -lSystem && ./hello
 
 
-
+More efficient ft_strlen ?
+https://codereview.stackexchange.com/questions/210689/strlen-and-strcmp-implementation-in-x86-fasm-assembl
 
 https://www.raywenderlich.com/615-assembly-register-calling-convention-tutorial
 The following registers are used as parameters when a function is called in x64 assembly. Try and commit these to memory, as you’ll use these frequently in the future:
