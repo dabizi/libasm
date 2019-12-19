@@ -1,4 +1,4 @@
-    %define sys_write 0x20000004
+    %define sys_write 0x20000004 ; Write on Mac os
 
     global _ft_write
     section __TEXT,__text
