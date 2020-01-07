@@ -1,6 +1,8 @@
 # libasm
 42 Project libasm
 
+To finish : dup && cpy
+
 Doc : https://cs.lmu.edu/~ray/notes/nasmtutorial/
 
 How to run it : nasm -fmacho64 hello.asm && ld hello.o -o hello -macosx_version_min 10.13 -lSystem && ./hello
